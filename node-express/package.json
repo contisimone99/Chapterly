@@ -1,0 +1,31 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Express REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Simone Conti",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.6",
+    "express": "^5.1.0",
+    "express-session": "^1.17.2",
+    "express-session-sqlite": "^2.0.10",
+    "md5": "^2.3.0",
+    "njwt": "^2.0.1",
+    "nnode": "^0.3.3",
+    "nodemon": "^3.1.9",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "var_dump": "^1.0.5"
+  }
+}
